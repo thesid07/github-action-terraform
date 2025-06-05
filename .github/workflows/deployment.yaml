@@ -26,7 +26,7 @@ jobs:
 
     - name: Initialize Terraform
       run: terraform init
-      uses: hashicorp/terraform-github-actions@master
+      
       
     - name: Plan Terraform changes
       run: terraform plan -out=tfplan
