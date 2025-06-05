@@ -8,7 +8,7 @@ on:
 jobs:
   terraform:
     runs-on: ubuntu-latest
-    environment: aws
+    environment: dev
     
     steps:
     - name: Checkout repository
